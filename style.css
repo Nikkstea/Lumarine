@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Jura:wght@300..700&display=swap");
+
+body {
+  font-family: "Jura", sans-serif;
+  overflow-y: hidden;
+}
+
+header {
+  background: url(https://i.postimg.cc/tC0g0P2Y/ai-generated-8328038-960-720.png)
+    no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+  margin-top: 0px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Cormorant Infant", serif;
+}
+
+.start {
+  font-size: 70px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 210px;
+}
+
+.btn {
+  background-color: #f3f7fe;
+  color: #125958;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  position: relative;
+  left: 420px;
+  bottom: 190px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  transition:
+    box-shadow,
+    background 0.6s;
+  box-shadow: 0 0 15px 5px lightblue;
+}
+
+.btn:hover {
+  background-color: #125958;
+  box-shadow: 0 0 0 5px #d4f9f8;
+  color: #fff;
+}
+
+.scn2 {
+  background: url(https://i.postimg.cc/nc4sk48K/underwater-landscape-mexico-cenotes-diving-rays-light-water-cave-diving-background-548821-29115.avif)
+    no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+}
+ h2 {
+  font-size: 30px;
+  margin-top: 0;
+  position: relative;
+  top: 40px;
+   box-shadow: 0 0 15px 5px lightblue;
+   border-radius: 50px;
+   padding-left: 0;
+   margin-right: 0;
+}
+
+
+.p1, .p2, .p3{
+  margin: 20px;
+  position: relative;
+  top: 70px
+}
+.p1::after{
+  content:"🌟" ;
+}
+.m::after{
+  content:"🧜‍♀️"
+}
+
+.help{
+ position:relative;
+  left: 420px;
+  top: 100px;
+  text-decoration: none;
+  background: #D6F4F8;
+  color: #024866;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.scn3{
+   background: url(https://img.freepik.com/free-photo/beautiful-shot-fishes-swimming-ocean_181624-2972.jpg?t=st=1746995092~exp=1746998692~hmac=122d14b3db5016b771d42c6cfec7131320132ce86a0d005dd8143a2cbeac00ca&w=826)
+    no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+    width: 100%;
+  min-height: 100vh;
+}
+
+.img-end{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 450px;
+  left: 550px;
+}
+
+.img-end: focus{
+  box-shadow: 0 0 15px 5px lightblue;
+}
+
+.scn4{
+   background: url(https://img.freepik.com/free-photo/beautiful-shot-fishes-swimming-ocean_181624-2972.jpg?t=st=1746995092~exp=1746998692~hmac=122d14b3db5016b771d42c6cfec7131320132ce86a0d005dd8143a2cbeac00ca&w=826)
+    no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+    width: 100%;
+  min-height: 100vh;
+}
+
+.img-end2{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 450px;
+  left: 550px;
+   box-shadow: 0 0 15px 5px lightblue;
+   background: white;
+}
+
+.end{
+  color: white;
+  background: #0b3e57;
+background: linear-gradient(357deg, rgba(11, 62, 87, 1) 20%, rgba(29, 121, 161, 1) 48%, rgba(79, 255, 237, 1) 100%);
+padding: 5px;
+border-radius: 50px;
+position: relative;
+top: 100px;
+}
+
+
+
